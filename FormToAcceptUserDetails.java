@@ -1,12 +1,12 @@
 public class FormToAcceptUserDetails {
     public static void main(String[] args) {
-        System.out.println("The Following Form Requests you to input your details");
+        System.out.println("The Following Form Requests you to input your details...");
         try {
             Thread.sleep(3000);
         } catch (Exception e) {
-            //TODO: handle exception
+            e.printStackTrace();
         }
-        
+
         UserDetails studentDetails = new UserDetails();
         studentDetails.getName();
         studentDetails.getRegNo();
